@@ -96,6 +96,9 @@ p {
 /* Landing Page Video */
 
 video.vid1 {
+    border-radius: 10px;
+    border: 1px solid orange;
+    box-shadow: 2px 2px 15px 3px orange;
     position: absolute;
     display: flex;
     height: 20%;
@@ -104,6 +107,9 @@ video.vid1 {
 }
 
 video.vid2 {
+    border-radius: 10px;
+    border: 1px solid orange;
+    box-shadow: 2px 2px 15px 3px orange;
     position: absolute;
     display: flex;
     height: 20%;
@@ -117,6 +123,9 @@ video.vid2 {
 }
 
 video.vid3 {
+    border-radius: 10px;
+    border: 1px solid orange;
+    box-shadow: 2px 2px 15px 3px orange;
     position: absolute;
     display: flex;
     height: 26%;
@@ -125,6 +134,9 @@ video.vid3 {
 }
 
 video.vid4 {
+    border-radius: 10px;
+    border: 1px solid orange;
+    box-shadow: 2px 2px 15px 3px orange;
     position: absolute;
     display: flex;
     height: 26%;
@@ -163,7 +175,7 @@ img {
 
 .demon-slayer:hover .demon-slayer-hidden {
     opacity: 1;
-    transition: .5s;
+    transition: 1s ease;
 }
 
 .jujutsu-hidden {
@@ -184,7 +196,7 @@ img {
 
 .jujutsu-kaisen:hover .jujutsu-hidden {
     opacity: 1;
-    transition: .5s;
+    transition: 1s ease;
 }
 
 .one-piece-hidden {
@@ -205,7 +217,7 @@ img {
 
 .one-piece:hover .one-piece-hidden {
     opacity: 1;
-    transition: .5s;
+    transition: 1s ease;
 }
 
 .susume-hidden {
@@ -226,10 +238,9 @@ img {
 
 .susume:hover .susume-hidden {
     opacity: 1;
-    transition: .5s;
+    transition: 1s ease;
 }
 
-website-name {
+.website-name {
     color: orange;
-    font-weight: 400;
 }
