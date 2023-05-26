@@ -24,14 +24,15 @@ nav a {
     margin: auto 10px;
     text-decoration: none;
     color: orange;
+    margin: 10px;
+    border: 2px solid orange;
+    border-radius: 5px;
 }
 
 a:hover {
     color: white;
     background: orange;
     transition: .5s ease;
-    margin: 10px;
-    border: 2px solid orange;
     border-radius: 5px;
 }
 
@@ -60,12 +61,21 @@ p {
     padding-bottom: 10px;
 }
 
+div a {
+    text-decoration: none;
+    background: white;
+    color: orange;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
 .index-logo {
     margin: 30px auto;
 }
 
 .intro-message {
-    top: 30px;
+    margin: 120px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,6 +85,7 @@ p {
 
 .message {
     width: 35%;
+    margin: 30px auto;
 }
 
 .explore {
@@ -243,4 +254,8 @@ img {
 
 .website-name {
     color: orange;
+}
+
+.navbar {
+    background-color:transparent;
 }
