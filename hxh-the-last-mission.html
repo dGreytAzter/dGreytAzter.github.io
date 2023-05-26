@@ -15,25 +15,30 @@
     <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
         <div class="container-fluid">
             <img src="assets/logo-v2.png" alt="main-logo" class="header-logo" style="height: 70px; margin: auto 50px;">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-">
-                    <li class="nav-item">
-                        <a class="nav-link link-light" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light" href="#">Today's Trending</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light" href="#">Anime Film Category</a>
-                    </li>
-            </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-">
+                          <li class="nav-item">
+                            <a class="nav-link link-light" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <!-- Button trigger modal -->
+                            <a class="nav-link link-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor: pointer;">Today's Trend</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link link-light" href="anime-film-category.html">Anime Film Category</a>
+                          </li>
+                      </ul>
+                </div>
         </div>
-    </nav>
+   </nav>
+
+  <div class="hero">
+    <video id="bg-video" src="assets/intro.mp4" muted autoplay loop></video>
+  </div>
 
     <div class="hero">
         <video id="bg-video" src="assets/intro.mp4" muted autoplay loop></video>
@@ -84,6 +89,23 @@
         </div>
     </div>
 
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Today's Trend</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="padding: 1; margin: 5px;">
+                    <a href="naruto-the-last.html"><img src="assets/naruto-the-last.jpg" alt=""></a>
+                    <a href="susume.html"><img src="assets/susume.jpg" alt=""></a>
+                    <a href="jujutsu-kaisen-0.html"><img src="assets/jujutsu-kaisen-0.jpg" alt=""></a>
+                    <a href="weathering-with-you.html"><img src="assets/weathering-with-you.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>

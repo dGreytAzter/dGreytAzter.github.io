@@ -29,7 +29,7 @@ nav a {
     border-radius: 5px;
 }
 
-a:hover {
+nav a:hover {
     color: white;
     background: orange;
     transition: .5s ease;
@@ -102,6 +102,10 @@ div a {
     background: white;
     color: black;
     transition: 1s ease;
+}
+
+a.anime-list {
+    background: transparent;
 }
 
 /* Landing Page Video */
@@ -272,4 +276,22 @@ img {
 .card-body {
     padding: 50px;
     height: 50%;
+}
+
+.modal-body a{
+    padding: auto;
+    margin: auto;
+    padding-left: 7px;
+}
+
+.maintenance {
+    position: relative;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    top: 400px;
 }
