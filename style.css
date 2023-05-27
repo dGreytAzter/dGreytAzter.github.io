@@ -112,6 +112,7 @@ a:hover {
 a.anime-list {
     background: transparent;
 }
+
 a.anime-list:hover {
     background: transparent;
     color: black !important;
@@ -270,7 +271,7 @@ img {
 }
 
 .navbar {
-    background-color:transparent;
+    background-color: transparent;
 }
 
 .video-watch-container {
@@ -287,7 +288,7 @@ img {
     height: 50%;
 }
 
-.modal-body a{
+.modal-body a {
     padding: auto;
     margin: auto;
     padding-left: 7px;
@@ -303,4 +304,355 @@ img {
     align-items: center;
     width: 90%;
     top: 400px;
+}
+
+@media screen and (max-width: 1366px) {
+
+    video.vid1 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 20%;
+        left: 10%;
+        top: 25%;
+    }
+
+    video.vid2 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 20%;
+        right: 10%;
+        top: 25%;
+    }
+
+    .intro-video1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    video.vid3 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 20%;
+        bottom: 15%;
+        left: 8%;
+    }
+
+    video.vid4 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 20%;
+        bottom: 15%;
+        right: 8%;
+    }
+
+    .intro-video2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Pop-up Image */
+
+    img {
+        border-radius: 5px;
+        height: 20rem;
+    }
+
+
+    .demon-slayer-hidden {
+        position: absolute;
+        left: 0%;
+        top: 25%;
+        opacity: 0;
+    }
+
+    .description1 {
+        left: 16%;
+        width: 16.5%;
+        top: 46%;
+        font-size: 13px;
+        color: orange;
+        text-align: justify;
+    }
+
+    .demon-slayer:hover .demon-slayer-hidden {
+        opacity: 1;
+        transition: 1s ease;
+    }
+
+    .jujutsu-hidden {
+        position: absolute;
+        right: 0%;
+        top: 25%;
+        opacity: 0;
+    }
+
+    .description2 {
+        right: 16%;
+        width: 16.5%;
+        top: 46%;
+        font-size: 13px;
+        color: orange;
+        text-align: justify;
+    }
+
+    .jujutsu-kaisen:hover .jujutsu-hidden {
+        opacity: 1;
+        transition: 1s ease;
+    }
+
+    .one-piece-hidden {
+        position: absolute;
+        left: 0%;
+        bottom: -2%;
+        opacity: 0;
+    }
+
+    .description3 {
+        left: 16%;
+        bottom: -2%;
+        width: 14%;
+        font-size: 13px;
+        color: orange;
+        text-align: justify;
+    }
+
+    .one-piece:hover .one-piece-hidden {
+        opacity: 1;
+        transition: 1s ease;
+    }
+
+    .susume-hidden {
+        position: absolute;
+        right: 0%;
+        bottom: -2%;
+        opacity: 0;
+    }
+
+    .description4 {
+        right: 16%;
+        bottom: -2%;
+        width: 14%;
+        font-size: 13px;
+        color: orange;
+        text-align: justify;
+    }
+
+    .susume:hover .susume-hidden {
+        opacity: 1;
+        transition: 1s ease;
+    }
+
+    .index-logo {
+        height: 15rem;
+    }
+    
+    .hero video {
+        position: fixed;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    video.vid1 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 15%;
+        left: 10%;
+        top: 25%;
+    }
+
+    video.vid2 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 15%;
+        right: 10%;
+        top: 25%;
+    }
+
+    .intro-video1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    video.vid3 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 20%;
+        bottom: 20%;
+        left: 0%;
+    }
+
+    video.vid4 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 20%;
+        bottom: 20%;
+        right: 0%;
+    }
+
+    .intro-video2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Pop-up Image */
+
+    img {
+        border-radius: 5px;
+        height: 20rem;
+    }
+
+    .demon-slayer:hover .demon-slayer-hidden {
+        opacity: 0;
+    }
+
+    .jujutsu-kaisen:hover .jujutsu-hidden {
+        opacity: 0;
+    }
+
+    .one-piece:hover .one-piece-hidden {
+        opacity: 0;
+    }
+
+    .susume:hover .susume-hidden {
+        opacity: 0;
+    }
+
+    .index-logo {
+        height: 10rem;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: -10%;
+        right: 0;
+    }
+    
+    .intro-message {
+        width: 80%;
+    }
+    
+    .message {
+        font-weight: 100;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    video.vid1 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 15%;
+        left: 10%;
+        top: 80%;
+    }
+
+    video.vid2 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 15%;
+        right: 10%;
+        top: 80%;
+    }
+
+    .intro-video1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    video.vid3 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 15%;
+        bottom: -15%;
+        left: 10%;
+    }
+
+    video.vid4 {
+        border-radius: 10px;
+        border: 1px solid orange;
+        box-shadow: 2px 2px 15px 3px orange;
+        position: absolute;
+        display: flex;
+        height: 15%;
+        bottom: -15%;
+        right: 10%;
+    }
+
+    .intro-video2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .video-container {
+        display: flex;
+    }
+
+    
+    .index-logo {
+        height: 10rem;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: -23%;
+        width: 50%;
+        left: 37%
+    }
+    
+    .intro-message {
+        width: 90%;
+    }
+    
+    .message {
+        font-weight: 100;
+        font-size: 15px;
+        width: 90%;
+    }
 }
