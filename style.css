@@ -656,3 +656,7 @@ img {
         width: 90%;
     }
 }
+
+.card-body {
+    padding: 15px !important;
+}
