@@ -70,8 +70,13 @@ div a {
     border-radius: 5px;
 }
 
+a:hover {
+    background-color: orange;
+    color: white;
+}
+
 .index-logo {
-    margin: 30px auto;
+    margin: 25px auto;
 }
 
 .intro-message {
@@ -100,7 +105,7 @@ div a {
 
 .explore:hover {
     background: white;
-    color: black;
+    color: black !important;
     transition: 1s ease;
 }
 
@@ -269,7 +274,7 @@ img {
     justify-content: space-evenly;
     align-items: center;
     width: 80%;
-    margin: 100px auto;
+    margin: 115px auto;
     padding: 20px;
 }
 
