@@ -112,6 +112,10 @@ a:hover {
 a.anime-list {
     background: transparent;
 }
+a.anime-list:hover {
+    background: transparent;
+    color: black !important;
+}
 
 /* Landing Page Video */
 
